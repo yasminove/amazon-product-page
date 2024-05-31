@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 
+}
+
+.main {
+    display: flex;
+}
+
+.book-cover {
+    margin-right: 50px;
+}
+
+.breadcrumps {
+    color: #565959;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    margin-top: 20px;
+    width: 400px;
+    height: 700px;
+}
+
+.title {
+    font-weight: lighter;
+    width: 650px
+}
+
+.author-name {
+    color: #007185;
+    text-decoration: underline;
+}
+
+.ratings {
+    display: block;
+    margin-top: 10px;
+}
+
+.section-title {
+    font-size: 19px;
+    margin-bottom: 16px
+}
+
+.book-description {
+    width: 560px;
+    line-height: 1.2
+}
