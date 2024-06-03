@@ -9,6 +9,7 @@ body {
 
 .book-cover {
     margin-right: 50px;
+    max-width: 300px
 }
 
 .breadcrumps {
@@ -18,13 +19,12 @@ body {
 .main-img {
     box-shadow: 0px 2px 5px lightgray;
     margin-top: 20px;
-    width: 400px;
-    height: 700px;
+   width: 100%;
 }
 
 .title {
     font-weight: lighter;
-    width: 650px
+    max-width: 650px
 }
 
 .author-name {
@@ -43,6 +43,6 @@ body {
 }
 
 .book-description {
-    width: 560px;
+    max-width: 560px;
     line-height: 1.2
 }
